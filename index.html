@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqwagel - Educational Posters & Maps Sri Lanka | Buy Online</title>
+    <meta name="description" content="Aqwagel sells educational posters, world maps, Sri Lanka maps, giant coloring posters, and school stationery in Sri Lanka. Best prices, island-wide delivery.">
+    <link rel="canonical" href="https://www.aqwagel.com/">
+    <style>
+        /* === COMPLETE CSS BUILT-IN === */
+        *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+        html{scroll-behavior:smooth}
+        body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;line-height:1.6;color:#1a2b3c;background:#f4f9fb;min-height:100vh}
+        img{max-width:100%;height:auto;display:block}
+        a{color:inherit;text-decoration:none}
+
+        :root{
+            --blue:#1565c0;
+            --blue-dark:#0d47a1;
+            --green:#2e7d32;
+            --green-light:#e8f5e9;
+            --blue-light:#e3f2fd;
+            --text:#1a2b3c;
+            --text-light:#546e7a;
+            --bg:#f4f9fb;
+            --card-bg:#ffffff;
+            --border:#bbdefb;
+            --shadow:0 2px 8px rgba(21,101,192,0.08);
+            --shadow-hover:0 8px 24px rgba(21,101,192,0.15);
+        }
+
+        /* Contact Bar */
+        .contact-bar{background:linear-gradient(135deg,var(--blue-dark) 0%,var(--green) 100%);color:#fff;padding:10px 16px;font-size:.82rem}
+        .contact-bar-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:center;gap:24px;flex-wrap:wrap;align-items:center}
+        .contact-bar a{color:#a5d6a7;font-weight:600;transition:color .2s}
+        .contact-bar a:hover{color:#fff}
+
+        /* Header */
+        .site-header{background:linear-gradient(135deg,var(--blue) 0%,var(--green) 100%);position:sticky;top:0;z-index:100;box-shadow:0 2px 12px rgba(0,0,0,0.1)}
+        .header-inner{max-width:1200px;margin:0 auto;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+        .brand{display:flex;align-items:center;gap:10px}
+        .brand-logo{height:40px;width:auto;border-radius:6px;object-fit:contain}
+        .brand-name{font-size:1.6rem;font-weight:800;color:#fff;letter-spacing:-0.5px}
+        .nav-toggle{display:none;background:none;border:none;color:#fff;font-size:1.5rem;cursor:pointer;padding:4px}
+        .main-nav{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+        .nav-link{color:rgba(255,255,255,0.92);font-size:.82rem;font-weight:500;padding:6px 10px;border-radius:6px;transition:all .2s;white-space:nowrap}
+        .nav-link:hover,.nav-link:focus{background:rgba(255,255,255,0.15);color:#fff;outline:none}
+        .nav-link.active{background:rgba(255,255,255,0.25);color:#fff}
+        .nav-link.special{background:var(--green-light);color:var(--green);font-weight:700}
+        .nav-link.special:hover{background:#c8e6c9}
+
+        /* Hero */
+        .hero{background:linear-gradient(135deg,var(--blue) 0%,var(--green) 100%);color:#fff;padding:60px 16px 50px;text-align:center;position:relative;overflow:hidden}
+        .hero-inner{max-width:800px;margin:0 auto;position:relative;z-index:1}
+        .hero h1{font-size:2.2rem;font-weight:800;margin-bottom:12px;line-height:1.2}
+        .hero-tagline{font-size:1.1rem;opacity:.92;margin-bottom:28px;max-width:560px;margin-left:auto;margin-right:auto}
+        .hero-cta{display:inline-flex;gap:12px;flex-wrap:wrap;justify-content:center}
+        .btn{background:#fff;color:var(--blue);padding:12px 28px;border-radius:8px;font-weight:700;font-size:.95rem;transition:all .2s;box-shadow:0 4px 12px rgba(0,0,0,0.15);border:none;cursor:pointer;display:inline-block;text-align:center}
+        .btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,0,0,0.2);color:var(--blue-dark)}
+
+        /* Main Content */
+        main{max-width:1200px;margin:0 auto;padding:40px 16px}
+        .section-title{font-size:1.6rem;color:var(--blue-dark);margin-bottom:8px;font-weight:700}
+        .section-subtitle{color:var(--text-light);margin-bottom:28px;font-size:.95rem}
+
+        /* Product Grid */
+        .product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
+        .product-card{background:var(--card-bg);border-radius:12px;overflow:hidden;box-shadow:var(--shadow);transition:all .25s;border:1px solid var(--border);display:flex;flex-direction:column}
+        .product-card:hover{transform:translateY(-4px);box-shadow:var(--shadow-hover)}
+        .product-img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--blue-light);max-height:220px}
+        .product-info{padding:16px;flex:1;display:flex;flex-direction:column}
+        .product-info h3{font-size:1rem;color:var(--blue-dark);margin-bottom:6px;font-weight:700}
+        .product-info p{font-size:.82rem;color:var(--text-light);line-height:1.5;flex:1}
+        .product-meta{display:flex;justify-content:space-between;align-items:center;margin-top:12px;flex-wrap:wrap;gap:8px}
+        .price{font-size:1.1rem;font-weight:700;color:var(--blue)}
+        .stock{font-size:.8rem;color:var(--green);font-weight:600}
+        .order-btn{background:var(--green);color:#fff;padding:10px 20px;border-radius:8px;font-weight:600;font-size:.85rem;transition:all .2s;display:inline-block;text-align:center;margin-top:12px}
+        .order-btn:hover{background:#1b5e20;transform:translateY(-1px)}
+
+        /* About Section */
+        .about-section{max-width:1200px;margin:40px auto;padding:0 16px}
+        .about-section p{color:var(--text-light);line-height:1.7}
+
+        /* Footer */
+        .site-footer{background:var(--blue-dark);color:rgba(255,255,255,0.85);padding:40px 16px 20px;margin-top:60px}
+        .footer-inner{max-width:1200px;margin:0 auto}
+        .footer-top{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px;margin-bottom:28px}
+        .footer-brand .brand-name{color:#fff;font-size:1.4rem}
+        .footer-brand p{font-size:.85rem;margin-top:8px;opacity:.8}
+        .footer-links h4{color:#fff;font-size:.9rem;margin-bottom:10px}
+        .footer-links a{display:block;color:rgba(255,255,255,0.75);font-size:.82rem;padding:4px 0;transition:color .2s}
+        .footer-links a:hover{color:#fff}
+        .footer-contact h4{color:#fff;font-size:.9rem;margin-bottom:10px}
+        .footer-contact p{font-size:.82rem;color:rgba(255,255,255,.85);margin-bottom:4px}
+        .footer-contact a{color:#a5d6a7;font-weight:600}
+        .footer-contact a:hover{color:#fff}
+        .footer-bottom{text-align:center;padding-top:16px;font-size:.8rem;opacity:.6}
+
+        /* WhatsApp Float Button */
+        .whatsapp-float{position:fixed;bottom:24px;right:24px;width:60px;height:60px;background:#25D366;color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 12px rgba(37,211,102,0.4);z-index:1000;transition:all 0.3s ease;text-decoration:none}
+        .whatsapp-float:hover{transform:scale(1.1);box-shadow:0 6px 20px rgba(37,211,102,0.6)}
+        .whatsapp-float svg{width:32px;height:32px}
+        .whatsapp-tooltip{position:absolute;right:70px;background:#1a2b3c;color:#fff;padding:8px 14px;border-radius:8px;font-size:0.85rem;white-space:nowrap;opacity:0;visibility:hidden;transition:all 0.3s ease;pointer-events:none}
+        .whatsapp-tooltip::after{content:'';position:absolute;right:-6px;top:50%;transform:translateY(-50%);border-width:6px 0 6px 6px;border-style:solid;border-color:transparent transparent transparent #1a2b3c}
+        .whatsapp-float:hover .whatsapp-tooltip{opacity:1;visibility:visible}
+
+        /* Responsive */
+        @media(max-width:768px){
+            .nav-toggle{display:block}
+            .main-nav{display:none;width:100%;flex-direction:column;gap:4px;padding-top:8px}
+            .main-nav.open{display:flex}
+            .nav-link{width:100%;padding:8px 12px}
+            .hero h1{font-size:1.7rem}
+            .hero-tagline{font-size:.95rem}
+            .product-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+            .whatsapp-float{width:54px;height:54px;bottom:16px;right:16px}
+            .whatsapp-float svg{width:28px;height:28px}
+            .whatsapp-tooltip{display:none}
+            .brand-logo{height:32px}
+        }
+        @media(max-width:480px){
+            .product-grid{grid-template-columns:1fr}
+            .hero{padding:40px 16px 36px}
+            main{padding:28px 12px}
+            .contact-bar-inner{gap:12px}
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-bar">
+        <div class="contact-bar-inner">
+            <span>📞 <a href="tel:+94717299504">+94 71 729 9504</a></span>
+            <span>📍 Battaramulla, Sri Lanka</span>
+            <span>📧 <a href="mailto:info@aqwagel.com">info@aqwagel.com</a></span>
+        </div>
+    </div>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="brand">
+                <a href="index.html"><img src="logo.png" alt="Aqwagel Logo" class="brand-logo"></a>
+                <span class="brand-name">Aqwagel</span>
+            </div>
+            <button class="nav-toggle" onclick="toggleMenu()">☰</button>
+            <nav class="main-nav" id="mainNav">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="category-maps.html" class="nav-link">Maps</a>
+                <a href="category-animals.html" class="nav-link">Animals</a>
+                <a href="category-science.html" class="nav-link">Science</a>
+                <a href="giant-coloring.html" class="nav-link special">Giant Coloring</a>
+                <a href="category-stationeries.html" class="nav-link">Stationery</a>
+                <a href="category-languages.html" class="nav-link">Languages</a>
+                <a href="category-math.html" class="nav-link">Math</a>
+                <a href="category-history.html" class="nav-link">History</a>
+                <a href="category-srilanka.html" class="nav-link">Sri Lanka</a>
+                <a href="category-others.html" class="nav-link">Others</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Educational Posters & Maps for Sri Lankan Students</h1>
+            <p class="hero-tagline">High-quality educational posters, world maps, giant coloring sheets, and school stationery. Delivered island-wide!</p>
+            <div class="hero-cta">
+                <a href="#products" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <h2 class="section-title">Our Products</h2>
+        <p class="section-subtitle">Browse our collection of educational materials</p>
+        <div class="product-grid" id="productsGrid"></div>
+    </main>
+
+    <section class="about-section">
+        <h2 class="section-title">About Aqwagel</h2>
+        <p>Aqwagel is Sri Lanka's trusted source for educational posters, maps, and learning materials. Based in Battaramulla, we serve schools, parents, and students across the island with high-quality, affordable educational products.</p>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="brand-name">Aqwagel</span>
+                    <p>Educational posters, maps, and learning materials for Sri Lankan students.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="index.html">Home</a>
+                    <a href="category-maps.html">Maps</a>
+                    <a href="category-science.html">Science</a>
+                    <a href="giant-coloring.html">Giant Coloring</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p>📞 <a href="tel:+94717299504">+94 71 729 9504</a></p>
+                    <p>📍 Battaramulla, Sri Lanka</p>
+                    <p>📧 <a href="mailto:info@aqwagel.com">info@aqwagel.com</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Aqwagel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/94717299504?text=Hi%20Aqwagel!%20I%20have%20a%20question%20about%20your%20products." class="whatsapp-float" target="_blank">
+        <svg viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    </a>
+
+    <script>
+        // Products data built-in
+        const products = [
+            {id:'p1',name:'World Map Poster',description:'Educational World Map Poster for kids. Large size, colorful design, perfect for classrooms and homes in Sri Lanka.',category:'maps',image:'images/world-map.webp',alt:'Aqwagel World Map Poster educational Sri Lanka',price:'1500.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p2',name:'Sri Lanka Map',description:'Detailed Sri Lanka Map with districts, cities, and landmarks. Perfect for school projects and home learning.',category:'maps',image:'images/srilanka-map.webp',alt:'Aqwagel Sri Lanka Map educational poster',price:'1200.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p3',name:'Solar System Poster',description:'Colorful Solar System Poster showing all planets. Great for science learning and classroom decoration.',category:'science',image:'images/solar-system.webp',alt:'Aqwagel Solar System Poster planets educational',price:'1500.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p4',name:'Human Body Chart',description:'Educational Human Body Chart showing organs and systems. Perfect for biology learning in Sri Lankan schools.',category:'science',image:'images/human-body.webp',alt:'Aqwagel Human Body Chart educational biology',price:'1800.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p5',name:'Giant World Map Coloring',description:'Giant coloring poster of the World Map. Kids can color countries while learning geography. Fun and educational!',category:'giant-coloring',image:'images/giant-coloring.webp',alt:'Aqwagel Giant World Map Coloring poster kids',price:'2500.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p6',name:'Animal Kingdom Poster',description:'Beautiful Animal Kingdom Poster showing mammals, birds, fish, and reptiles. Great for young learners in Sri Lanka.',category:'animals',image:'images/animal-kingdom.webp',alt:'Aqwagel Animal Kingdom Poster educational',price:'1500.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p7',name:'Insects of the World',description:'Educational poster showing various insects and bugs. Perfect for science projects and nature learning.',category:'animals',image:'images/insects.webp',alt:'Aqwagel Insects of the World educational poster',price:'1200.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p8',name:'Educational Stationery Set',description:'Complete educational stationery set with rulers, pencils, and learning tools. Perfect for Sri Lankan school students.',category:'stationeries',image:'images/stationery-set.webp',alt:'Aqwagel Educational Stationery Set Sri Lanka',price:'800.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p9',name:'Periodic Table Poster',description:'Complete Periodic Table of Elements poster. Color-coded and easy to read. Essential for chemistry students.',category:'science',image:'images/periodic-table.webp',alt:'Aqwagel Periodic Table Poster chemistry educational',price:'1500.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p10',name:'Sinhala Alphabet Chart',description:'Colorful Sinhala Alphabet Chart with examples. Perfect for teaching Sinhala to children and beginners.',category:'languages',image:'images/sinhala-alphabet.webp',alt:'Aqwagel Sinhala Alphabet Chart educational Sri Lanka',price:'1000.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p11',name:'Multiplication Table Chart',description:'Large Multiplication Table Chart from 1 to 20. Essential math learning tool for Sri Lankan primary students.',category:'math',image:'images/multiplication-table.webp',alt:'Aqwagel Multiplication Table Chart math educational',price:'1000.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p12',name:'Sri Lanka National Symbols',description:'Educational poster showing Sri Lanka National Symbols - flag, emblem, flower, bird, and more. Great for patriotism education.',category:'srilanka',image:'images/sl-symbols.webp',alt:'Aqwagel Sri Lanka National Symbols educational poster',price:'1200.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p13',name:'English Phonics Poster',description:'English Phonics Poster with sounds and examples. Perfect for teaching English pronunciation to Sri Lankan children.',category:'languages',image:'images/phonics.webp',alt:'Aqwagel English Phonics Poster educational',price:'1200.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'},
+            {id:'p14',name:'Ancient Sri Lanka Timeline',description:'Historical timeline of Ancient Sri Lanka. From Anuradhapura to Kandy kingdom. Perfect for history lessons.',category:'history',image:'images/history-timeline.webp',alt:'Aqwagel Ancient Sri Lanka Timeline history educational',price:'1500.00',priceCurrency:'LKR',availability:'https://schema.org/InStock'}
+        ];
+
+        function toggleMenu() {
+            document.getElementById('mainNav').classList.toggle('open');
+        }
+
+        function renderProducts() {
+            const grid = document.getElementById('productsGrid');
+            if (!grid) return;
+
+            products.forEach(product => {
+                const card = document.createElement('div');
+                card.className = 'product-card';
+                card.innerHTML = `
+                    <img src="${product.image}" alt="${product.alt}" class="product-img" loading="lazy" onerror="this.src='https://placehold.co/400x300/e3f2fd/1565c0?text=${encodeURIComponent(product.name)}'">
+                    <div class="product-info">
+                        <h3>${product.name}</h3>
+                        <p>${product.description}</p>
+                        <div class="product-meta">
+                            <span class="price">Rs. ${parseFloat(product.price).toLocaleString('en-LK')}</span>
+                            <span class="stock">✅ In Stock</span>
+                        </div>
+                        <a href="https://wa.me/94717299504?text=Hi%20Aqwagel!%20I%20want%20to%20order%20${encodeURIComponent(product.name)}" class="order-btn" target="_blank">Order on WhatsApp</a>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        renderProducts();
+    </script>
+</body>
+</html>
